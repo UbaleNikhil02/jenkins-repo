@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 
-                    sleep-1
+                    sleep 10
                 }
             
         }
@@ -15,7 +15,7 @@ pipeline {
 
             steps {
                 
-                    sleep-2
+                    sleep 20
                 }
             
         }
@@ -24,7 +24,7 @@ pipeline {
         stage ('Install Stage') {
             steps {
                 
-                    sleep-3
+                    sleep 30
                 }
             
         }
